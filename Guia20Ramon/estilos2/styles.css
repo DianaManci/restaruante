@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    color: #000000; /* Color de texto oscuro */
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: #000; /* Negro */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff; /* Naranja */
+    margin: 0 20px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #fff; /* Cambio de color al pasar el mouse */
+}
+
+#cabeceraPagina {
+    background-color: #ffffff; /* Naranja oscuro */
+    color: #000000; /* Texto blanco */
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#areaInformacion {
+    flex: 3; /* Toma el 75% del espacio del main */
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 90px;
+    text-align: justify;
+}
+
+#areaDerecha {
+    flex: 1; /* Toma el 25% del espacio del main */
+    background-color: #f9f9f9; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #555; /* Color de texto más oscuro */
+}
+
+#areaDerecha img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+#piePagina {
+    background-color: #000000; 
+    color:  #ee7b10; 
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+#piePagina {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#piePagina p {
+    margin-bottom: 10px;
+}
+
+#piePagina strong {
+    color: #f78419;
+}
+
+#piePagina a {
+    color: #ff8412;
+    text-decoration: none;
+}
+
+#piePagina a:hover {
+    text-decoration: underline;
+    text-align: left;
+}
+
+/* Estilos específicos para la dirección */
+#dire {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para los horarios */
+#piePagina p:nth-of-type(2) {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilos específicos para el contacto */
+#piePagina p:nth-of-type(3) {
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+#redes{
+    text-align: left;
+}

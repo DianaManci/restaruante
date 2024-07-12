@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+}
+body table{
+    display: inline-block;
+}

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Fondo gris claro para mejor visualización */
+}
+.menu{
+    border: 1px solid gray;
+    display: grid;
+    gap: 1rem;
+}
+.container2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Hace que el relleno esté dentro del ancho total */
+}
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los botones */
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+        
+}
+button[type="reset"] {
+    background-color: #6c757d; /* Color gris para el botón de reset */
+}
